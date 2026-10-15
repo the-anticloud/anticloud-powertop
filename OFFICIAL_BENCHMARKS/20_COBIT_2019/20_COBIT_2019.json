@@ -1,0 +1,21 @@
+{
+ "framework": "20_COBIT_2019",
+ "title": "ISACA COBIT 2019",
+ "project": "POWERTOP",
+ "basis": [
+  {
+   "check": "05_git_health",
+   "status": "PASS",
+   "observed": "branch=main head=77641ec8c1d0 commits=1 clean=True gitignore"
+  },
+  {
+   "check": "14_iso_27001",
+   "status": "PASS",
+   "observed": "framework=ISO/IEC 27001:2022 Annex A controls=9 verified=9 u"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "c6356bf3a2f1ec4848c2e45362b56e1e0626358caba7bf64bb1deaebb997dbbf",
+ "register_sha3": "ed5c13229daf127566d9a48eb603fe2da4000d5901d90d2ba9f26b10859b1520"
+}
